@@ -44,13 +44,13 @@
     { "id": 28, "description": "Discharge >30min", "chargeTypeId": 7 }
   ],
   "procedures": [
-    { "sectionId": 1, "id": 1, "code": "32554", "description": "Thoracentesis" },
-    { "sectionId": 1, "id": 2, "code": "32555", "description": "Theracentesis w/ Ultrasound Guidance" },
-    { "sectionId": 1, "id": 3, "code": "49082", "description": "Abdominal Paracentesis" },
-    { "sectionId": 1, "id": 4, "code": "36556", "description": "Central Venous Catheter, Initial Placement" },
-    { "sectionId": 2, "id": 5, "code": "97597", "description": "Wound Debridement, less or equal 20 sq cm" },
-    { "sectionId": 2, "id": 6, "code": "97598", "description": "Wound Debridement, greater than 20 sq cm" },
-    { "sectionId": 2, "id": 7, "code": "G0180", "description": "Medicare Cert of Home Health Services" },
-    { "sectionId": 2, "id": 8, "code": "G0179", "description": "Medicare Re-Cert of Home Health Services" }
+    { "id": 1, "code": "32554", "description": "Thoracentesis", "sectionId": 1 },
+    { "id": 2, "code": "32555", "description": "Theracentesis w/ Ultrasound Guidance", "sectionId": 1 },
+    { "id": 3, "code": "49082", "description": "Abdominal Paracentesis", "sectionId": 1 },
+    { "id": 4, "code": "36556", "description": "Central Venous Catheter, Initial Placement", "sectionId": 1 },
+    { "id": 5, "code": "97597", "description": "Wound Debridement, less or equal 20 sq cm", "sectionId": 2 },
+    { "id": 6, "code": "97598", "description": "Wound Debridement, greater than 20 sq cm", "sectionId": 2 },
+    { "id": 7, "code": "G0180", "description": "Medicare Cert of Home Health Services", "sectionId": 2 },
+    { "id": 8, "code": "G0179", "description": "Medicare Re-Cert of Home Health Services", "sectionId": 2 }
   ]   
 }
