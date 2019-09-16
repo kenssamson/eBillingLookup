@@ -1,7 +1,23 @@
 {
   "sections": [
-    { "id": 1, "description": "Hospital Medicine" },
-    { "id": 2, "description": "Geriatric Medicine" }
+    { "id": 1, "description": "Hospital Medicine",
+      "serviceTypes": [
+        { "id": 1, "description": "Mercy A", "sectionId": 1 },
+        { "id": 2, "description": "Mercy B", "sectionId": 1 },
+        { "id": 3, "description": "Mercy C", "sectionId": 1 },
+        { "id": 4, "description": "Mercy D", "sectionId": 1 }
+      ],
+      "patientTypes": [
+        { "id": 1, "description": "Liver", "sectionId": 1 },
+        { "id": 2, "description": "Oncology", "sectionId": 1 },
+        { "id": 3, "description": "General Medicine", "sectionId": 1 },
+        { "id": 4, "description": "Cardiology", "sectionId": 1 },
+        { "id": 5, "description": "Radiologoy", "sectionId": 1 }
+      ] 
+    },
+    { "id": 2, "description": "Geriatric Medicine",
+      "serviceTypes": [], "patientTypes": []
+    }
   ],
   "chargeTypes": [
     { "id": 1, "description": "Evaluate & Manage", "sectionId": 1 },
