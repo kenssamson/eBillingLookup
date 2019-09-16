@@ -1,6 +1,6 @@
 {
   "sections": [
-    { "id": 1, "description": "Hospital Medicine",
+    { "id": 1, "description": "Hospital Medicine", "procedureCount": 3,
       "serviceTypes": [
         { "id": 1, "description": "Mercy A", "sectionId": 1 },
         { "id": 2, "description": "Mercy B", "sectionId": 1 },
@@ -15,7 +15,7 @@
         { "id": 5, "description": "Radiologoy", "sectionId": 1 }
       ] 
     },
-    { "id": 2, "description": "Geriatric Medicine",
+    { "id": 2, "description": "Geriatric Medicine", "procedureCount": 1,
       "serviceTypes": [], "patientTypes": []
     }
   ],
