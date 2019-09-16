@@ -20,14 +20,14 @@
     }
   ],
   "chargeTypes": [
-    { "id": 1, "description": "Evaluate & Manage", "sectionId": 1 },
-    { "id": 2, "description": "Consultation", "sectionId": 1 },
-    { "id": 3, "description": "Observation", "sectionId": 1 },
-    { "id": 4, "description": "Critical Care", "sectionId": 1 },
-    { "id": 5, "description": "Procedure Only", "sectionId": 1 },
-    { "id": 6, "description": "Home Visit", "sectionId": 2 },
-    { "id": 7, "description": "Nursing Facility", "sectionId": 2 },
-    { "id": 8, "description": "Procedure Only", "sectionId": 2 }
+    { "id": 1, "description": "Evaluate & Manage", "sectionId": 1, "hasLevels": true },
+    { "id": 2, "description": "Consultation", "sectionId": 1, "hasLevels": true },
+    { "id": 3, "description": "Observation", "sectionId": 1, "hasLevels": true },
+    { "id": 4, "description": "Critical Care", "sectionId": 1, "hasLevels": true },
+    { "id": 5, "description": "Procedure Only", "sectionId": 1, "hasLevels": false },
+    { "id": 6, "description": "Home Visit", "sectionId": 2, "hasLevels": true },
+    { "id": 7, "description": "Nursing Facility", "sectionId": 2, "hasLevels": true },
+    { "id": 8, "description": "Procedure Only", "sectionId": 2, "hasLevels": false }
  ],
  "chargeLevels": [
     { "id": 1, "description": "Seen but not Billed", "chargeTypeId": 1 },
