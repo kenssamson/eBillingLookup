@@ -68,5 +68,13 @@
     { "id": 6, "code": "97598", "description": "Wound Debridement, greater than 20 sq cm", "sectionId": 2 },
     { "id": 7, "code": "G0180", "description": "Medicare Cert of Home Health Services", "sectionId": 2 },
     { "id": 8, "code": "G0179", "description": "Medicare Re-Cert of Home Health Services", "sectionId": 2 }
-  ]   
+  ],
+  "locations": [
+    { "id": 1, "description": "Mercy Hospital", "sectionId": 1, "locationType": 1 },
+    { "id": 2, "description": "Montgomery Place", "sectionId": 2, "locationType": 2 },
+    { "id": 3, "description": "Symphany at South Shore", "sectionId": 2, "locationType": 2 },
+    { "id": 4, "description": "Villa at Windsor Park", "sectionId": 2, "locationType": 2 },
+    { "id": 5, "description": "Home", "sectionId": 2, "locationType": 2 },
+    { "id": 6, "description": "Home Healt Cert", "sectionId": 2, "locationType": 2 }
+  ]
 }
