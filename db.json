@@ -61,10 +61,10 @@
     { "id": 2, "code": "32555", "description": "Theracentesis w/ Ultrasound Guidance", "sectionId": 1 },
     { "id": 3, "code": "49082", "description": "Abdominal Paracentesis", "sectionId": 1 },
     { "id": 4, "code": "36556", "description": "Central Venous Catheter, Initial Placement", "sectionId": 1 },
-    { "id": 5, "code": "97597", "description": "Wound Debridement, less or equal 20 sq cm", "sectionId": 2 },
-    { "id": 6, "code": "97598", "description": "Wound Debridement, greater than 20 sq cm", "sectionId": 2 },
-    { "id": 7, "code": "G0180", "description": "Medicare Cert of Home Health Services", "sectionId": 2 },
-    { "id": 8, "code": "G0179", "description": "Medicare Re-Cert of Home Health Services", "sectionId": 2 }
+    { "id": 5, "code": "97597", "description": "Wound Debridement, less or equal 20 sq cm", "sectionId": 2, "groupId": 1 },
+    { "id": 6, "code": "97598", "description": "Wound Debridement, greater than 20 sq cm", "sectionId": 2, "groupId": 1 },
+    { "id": 7, "code": "G0180", "description": "Medicare Cert of Home Health Services", "sectionId": 2, "groupId": 2 },
+    { "id": 8, "code": "G0179", "description": "Medicare Re-Cert of Home Health Services", "sectionId": 2, "groupId": 2 }
   ],
   "locations": [
     { "id": 1, "description": "Mercy Hospital", "sectionId": 1, "locationType": 1 },
